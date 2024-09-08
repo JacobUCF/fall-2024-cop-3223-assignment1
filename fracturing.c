@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
     return 0;
 }
 
-//Decided to use the bonus function to try my best to adhere to DRY
+//Decided to use the bonus function to try my best to adhere to DRY.  Had help from roommate, stated in colab log
 double askForUserInput() {
 
     double userinput;
@@ -66,7 +66,7 @@ double calculatePerimeter() {
     double distance;
     double perimeter;
 
-    distance = calculateDistance(); //Had some trouble implementing the distance function into the other functions at first.  Took some trial and error
+    distance = calculateDistance(); //Had some trouble implementing the distance function into the other functions at first.  Took some trial and error, as well as help from ChatGPT, stated in colab log
     perimeter = PI * distance;
 
     printf("Point 1 entered: x1 = %lf; y1 = %lf\n", distance, distance);
